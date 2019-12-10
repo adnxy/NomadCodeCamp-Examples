@@ -1,0 +1,25 @@
+<html>
+
+<head>
+	<script>
+		// alert('HELLO, THIS IS ALERT');
+		// prompt('what is your name', 'john');
+	</script>
+</head>
+
+<body>
+	<h2>What Can JavaScript Do?</h2>
+
+	<h1 class="demo-class">JavaScript can change HTML content.</h1>
+	<button type="button" onclick='document.querySelector(".demo-class").innerHTML = "Hello JavaScript!"'>Change
+		Text!</button>
+
+
+	<button type="button" onclick="document.querySelector('.demo-class').style.display='none'">Remove Element!</button>
+	<p id="demo">JavaScript can change the style of an HTML element.</p> 
+
+
+	<button type="button" onclick="document.querySelector('.demo-class').style.fontSize='55px'">Change Font Size!</button>
+</body>
+
+</html>
