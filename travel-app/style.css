@@ -1,32 +1,8 @@
-.navigation-logo-img {
-	width: 90px;
-	height: 80px;
-}
-
 body {
 	padding-bottom: 5%
 }
 
-.navigation-logo {
-	display: flex;
-	justify-content: flex-start;
-	align-items: center;
-}
-
-.navigation-button {
-	padding: 4%;
-    border-radius: 3px;
-		font-size: 14px;
-		background-color: aqua;
-}
-
-.navigation-logo-title {
-	padding-left: 10px;
-	color: white;
-	font-family: Avenir-Medium;
-}
-
-.photos-title {
+.album-title {
 	text-align: center;
 	padding-top: 3%;
 }
@@ -36,39 +12,74 @@ body {
 	justify-content: flex-start;
 	align-items: center;
 	color: white;
+	flex: 1%;
+}
+
+.navigation-logo {
+	display: flex;
+	flex: 55%;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.navigation-logo-img {
+	width: 110px;
+}
+
+.navigation-button {
+	padding: 4%;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	background-color: aqua;
+	cursor: pointer;
+	color: black;
+}
+
+.navigation-logo-title {
+	padding-left: 10px;
+	color: black;
+	font-family: Avenir-Medium;
+	font-weight: bold;
+}
+
+.navigation-search-img {
+	width: 6%;
+	margin-left: 10%;
+	margin-right: 2%;
+	cursor: pointer;
+}
+
+.navigation-search-text {
+	color: black;
+	font-family: Avenir-Medium;
+	font-size: 17px;
 }
 
 .navigation {
 	display: flex;
+	flex: 1;
 	justify-content: space-between;
-	align-items: center;
 	opacity: 0.8;
 }
-
-.search {
-	padding-left: 10px;
-	padding-right: 100px;
-}
-
 
 .first-album-container,
 .second-album-container,
 .third-album-container,
 .images-container-chiang-mai,
 .images-container-medellin,
-.images-container-prague
-{
+.images-container-prague {
 	display: flex;
 	width: 243px;
 	flex-wrap: wrap;
-	padding: 40px;
+	padding: 7%;
 	border: 1px solid #ecf2f9;
 	margin-top: 20px;
 	background-color: #ecf2f9;
 
 }
 
-.photos-first-row {
+.album-container {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
@@ -82,9 +93,9 @@ body {
 	padding-top: 20px;
 }
 
-.photos-continent-album-first,
-.photos-continent-album-second,
-.photos-continent-album-third {
+.album-photo-container-first,
+.album-photo-container-second,
+.album-photo-container-third {
 	width: 46%;
 	margin: 2%;
 }
@@ -96,18 +107,27 @@ body {
 	margin: 2%;
 }
 
-.add-buttons {
+.album-buttons-container {
 	display: flex;
 	justify-content: space-around;
 	margin-top: 1%;
+	cursor: pointer;
 }
 
-h2 {
-	text-align: center;
-	text-shadow: 4px;
+.add-button-first-album,
+.add-button-second-album,
+.add-button-third-album {
+	padding: 0.5%;
+	border-radius: 3px;
+	font-size: 14px;
+	background-color: #ea6e3e;
+	font-family: Avenir-Medium;
+	cursor: pointer;
+	color: white;
 }
 
 .title-container {
 	display: flex;
+	justify-content: center;
 	width: 100%;
 }
