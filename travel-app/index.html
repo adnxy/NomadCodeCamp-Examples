@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<script src="javascript.js"></script>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Travel App</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<nav class="navigation">
+		<div class="navigation-logo">
+			<img class="navigation-logo-img" src="images/logo.png">
+			<p class="navigation-logo-title">My Photo Album</p>
+		</div>
+		<div class="navigation-container">
+			<button class="navigation-button" type="button">New Album</button>
+		</div>
+	</nav>
+</head>
+
+<body>
+	<h1 class="photos-title">Albums</h1>
+	<div class="photos-first-row">
+		<div class="first-album-container">
+			<div class="title-container">
+				<h2>Album 1</h2>
+			</div>
+			<img class="photos-continent-album-first" src="./images/placeholder.png">
+			<img class="photos-continent-album-first" src="./images/placeholder.png">
+			<img class="photos-continent-album-first" src="./images/placeholder.png">
+			<img class="photos-continent-album-first" src="./images/placeholder.png">
+		</div>
+		<div class="second-album-container">
+			<div class="title-container">
+				<h2>Album 2</h2>
+			</div>
+			<img class="photos-continent-album-second" src="./images/placeholder.png">
+			<img class="photos-continent-album-second" src="./images/placeholder.png">
+			<img class="photos-continent-album-second" src="./images/placeholder.png">
+			<img class="photos-continent-album-second" src="./images/placeholder.png">
+		</div>
+		<div class="third-album-container">
+			<div class="title-container">
+				<h2>Album 3</h2>
+			</div>
+			<img class="photos-continent-album-third" src="./images/placeholder.png">
+			<img class="photos-continent-album-third" src="./images/placeholder.png">
+			<img class="photos-continent-album-third" src="./images/placeholder.png">
+			<img class="photos-continent-album-third" src="./images/placeholder.png">
+		</div>
+	</div>
+	<h1 class="photos-title">All Photos</h1>
+	<div class="photos-second-row">
+		<div class="images-container-chiang-mai">
+			<div class="title-container">
+				<h2 class="title-chiang-mai">Chiang Mai</h2>
+			</div>
+			<img class="photos-chiang-mai" src="./images/cm-buddah.jpeg">
+			<img class="photos-chiang-mai" src="./images/cm-fields.jpeg">
+			<img class="photos-chiang-mai" src="./images/cm-hotel.jpeg">
+			<img class="photos-chiang-mai" src="./images/cm-temple.jpeg">
+		</div>
+		<div class="images-container-prague">
+			<div class="title-container">
+				<h2 class="title-prague">Prague</h2>
+			</div>
+			<img class="photos-prague" src="./images/prague-bridge.jpg">
+			<img class="photos-prague" src="./images/prague-hotel.jpeg">
+			<img class="photos-prague" src="./images/prague-oldtown.jpg">
+			<img class="photos-prague" src="./images/prague-river.jpg">
+		</div>
+		<div class="images-container-medellin">
+			<div class="title-container">
+				<h2 class="title-medellin">Medellin</h2>
+			</div>
+			<img class="photos-medelin" src="./images/medellin-hill.jpg">
+			<img class="photos-medelin" src="./images/medellin-nature.jpeg">
+			<img class="photos-medelin" src="./images/medellin-slum.png">
+			<img class="photos-medelin" src="./images/medellin-town.jpeg">
+		</div>
+	</div>
+	<div class="add-buttons">
+			<button class="add-button-first-album" type="button" onclick='addToFirstAlbum()'>Add to Album 1</button>
+			<button class="add-button-second-album" type="button" onclick='addToSecondAlbum()'>Add to Album 2</button>
+			<button class="add-button-third-album" type="button" onclick='addToThirdAlbum()'>Add to Album 3</button>
+	</div>
+</body>
+
+</html>
