@@ -5,6 +5,10 @@
 	<meta charset="UTF-8">
 	<title>Travel App</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
 	<nav class="navigation">
 		<div class="navigation-logo">
 			<img class="navigation-logo-img" src="images/logo.png">
@@ -16,44 +20,47 @@
 			<p class="navigation-search-text">Search</p>
 		</div>
 	</nav>
-</head>
-
-<body>
-<h1 class="album-title">All Photos</h1>
-<div class="album-container">
-	<div class="images-container-chiang-mai">
-		<div class="title-container">
-			<h2 class="title-chiang-mai">Chiang Mai</h2>
+	<h1 class="album-title">All Photos</h1>
+	<div class="album-container">
+		<div class="images-container-chiang-mai">
+			<div class="title-container">
+				<h2 class="title-chiang-mai">Chiang Mai</h2>
+			</div>
+			<img class="photos-chiang-mai" src="./images/cm-buddah.jpeg">
+			<img class="photos-chiang-mai" src="./images/cm-fields.jpeg">
+			<img class="photos-chiang-mai" src="./images/cm-hotel.jpeg">
+			<img class="photos-chiang-mai" src="./images/cm-temple.jpeg">
 		</div>
-		<img class="photos-chiang-mai" src="./images/cm-buddah.jpeg">
-		<img class="photos-chiang-mai" src="./images/cm-fields.jpeg">
-		<img class="photos-chiang-mai" src="./images/cm-hotel.jpeg">
-		<img class="photos-chiang-mai" src="./images/cm-temple.jpeg">
-	</div>
-	<div class="images-container-prague">
-		<div class="title-container">
-			<h2 class="title-prague">Prague</h2>
+		<div class="images-container-prague">
+			<div class="title-container">
+				<h2 class="title-prague">Prague</h2>
+			</div>
+			<img class="photos-prague" src="./images/prague-bridge.jpg">
+			<img class="photos-prague" src="./images/prague-hotel.jpeg">
+			<img class="photos-prague" src="./images/prague-oldtown.jpg">
+			<img class="photos-prague" src="./images/prague-river.jpg">
 		</div>
-		<img class="photos-prague" src="./images/prague-bridge.jpg">
-		<img class="photos-prague" src="./images/prague-hotel.jpeg">
-		<img class="photos-prague" src="./images/prague-oldtown.jpg">
-		<img class="photos-prague" src="./images/prague-river.jpg">
-	</div>
-	<div class="images-container-medellin">
-		<div class="title-container">
-			<h2 class="title-medellin">Medellin</h2>
+		<div class="images-container-medellin">
+			<div class="title-container">
+				<h2 class="title-medellin">Medellin</h2>
+			</div>
+			<img class="photos-medelin" src="./images/medellin-hill.jpg">
+			<img class="photos-medelin" src="./images/medellin-nature.jpeg">
+			<img class="photos-medelin" src="./images/medellin-slum.png">
+			<img class="photos-medelin" src="./images/medellin-town.jpeg">
 		</div>
-		<img class="photos-medelin" src="./images/medellin-hill.jpg">
-		<img class="photos-medelin" src="./images/medellin-nature.jpeg">
-		<img class="photos-medelin" src="./images/medellin-slum.png">
-		<img class="photos-medelin" src="./images/medellin-town.jpeg">
 	</div>
-</div>
-<div class="album-buttons-container">
-		<button class="add-button-first-album" type="button" onclick='addToAlbum(".first-album-container", ".images-container-chiang-mai", ".add-button-first-album")'>Add to Album 1</button>
-		<button class="add-button-second-album" type="button" onclick='addToAlbum(".second-album-container",".images-container-prague", ".add-button-second-album")'>Add to Album 2</button>
-		<button class="add-button-third-album" type="button" onclick='addToAlbum(".third-album-container", ".images-container-medellin", ".add-button-third-album")'>Add to Album 3</button>
-</div>
+	<div class="album-buttons-container">
+		<button class="add-button-first-album" type="button"
+			onclick='addToAlbum(".first-album-container", ".images-container-chiang-mai", ".add-button-first-album")'>Add to
+			Album 1</button>
+		<button class="add-button-second-album" type="button"
+			onclick='addToAlbum(".second-album-container",".images-container-prague", ".add-button-second-album")'>Add to
+			Album 2</button>
+		<button class="add-button-third-album" type="button"
+			onclick='addToAlbum(".third-album-container", ".images-container-medellin", ".add-button-third-album")'>Add to
+			Album 3</button>
+	</div>
 	<h1 class="album-title">Albums</h1>
 	<div class="album-container">
 		<div class="first-album-container">
