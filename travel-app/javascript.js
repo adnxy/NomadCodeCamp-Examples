@@ -1,6 +1,6 @@
-function addToAlbum(abumClass, cityClass, buttonClass) {
+function addToAlbum(albumClass, cityClass, buttonClass) {
 	// Select album
-	var albumPhotos = document.querySelector(abumClass);
+	var albumPhotos = document.querySelector(albumClass);
 	// Select pictures
 	var cityPhotos = document.querySelector(cityClass);
 	// Replace pictures with album
